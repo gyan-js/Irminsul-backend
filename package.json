@@ -1,0 +1,16 @@
+{
+  "name": "raschain-api",
+  "version": "1.0.0",
+  "description": "Express API backend for the RasChain blockchain demo",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node --watch server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "morgan": "^1.10.0"
+  }
+}

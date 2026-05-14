@@ -1,0 +1,103 @@
+{
+  "chain": [
+    {
+      "index": 0,
+      "hash": "00382685c37c59ec60791246f85b8c5879971e9c7da11870c105ab5d9ac840d2",
+      "previousHash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "merkleRoot": "2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d",
+      "difficulty": 2,
+      "miner": null,
+      "nonce": 592,
+      "timestamp": "2026-05-07T00:36:01.898Z",
+      "txCount": 0,
+      "transactions": []
+    },
+    {
+      "index": 1,
+      "hash": "06d8531945566b4b00f09e887bc20fd7d73e3f61f222f88e9eb8f1a3ecbe1050",
+      "previousHash": "00382685c37c59ec60791246f85b8c5879971e9c7da11870c105ab5d9ac840d2",
+      "merkleRoot": "6639479bcf78b69be77d7dac9a7985c7676cbe5d01e519bb9252145cf358a9ee",
+      "difficulty": 1,
+      "miner": "IRM99287376D56603D28C1FAA7BC5DAD5AC",
+      "nonce": 0,
+      "timestamp": "2026-05-07T00:36:16.049Z",
+      "txCount": 1,
+      "transactions": [
+        {
+          "id": "0db17085-8715-4f5a-ada4-1a2f2e0b9424",
+          "from": null,
+          "to": "IRM99287376D56603D28C1FAA7BC5DAD5AC",
+          "amount": 50,
+          "fee": 0,
+          "data": "Block 1 reward",
+          "timestamp": "2026-05-07T00:36:16.049Z",
+          "signature": null
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "hash": "0386e39a0742d8025baae02b8155173609ad98ade4a8b3e86b0e4119ef25e81f",
+      "previousHash": "06d8531945566b4b00f09e887bc20fd7d73e3f61f222f88e9eb8f1a3ecbe1050",
+      "merkleRoot": "96fc32ca7126708bc4c3324f4f8d410ddaae78392bf587b77357030531667f11",
+      "difficulty": 1,
+      "miner": "IRM99287376D56603D28C1FAA7BC5DAD5AC",
+      "nonce": 8,
+      "timestamp": "2026-05-07T00:36:16.933Z",
+      "txCount": 1,
+      "transactions": [
+        {
+          "id": "3c049aa7-f890-4a79-9b6b-fabfb11f6c4c",
+          "from": null,
+          "to": "IRM99287376D56603D28C1FAA7BC5DAD5AC",
+          "amount": 50,
+          "fee": 0,
+          "data": "Block 2 reward",
+          "timestamp": "2026-05-07T00:36:16.933Z",
+          "signature": null
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "hash": "0402d0cc49931ecdf10d771c2cf7cce788a3a5e57011632492c4631a51960aa6",
+      "previousHash": "0386e39a0742d8025baae02b8155173609ad98ade4a8b3e86b0e4119ef25e81f",
+      "merkleRoot": "bdd182aac949984498fde9a2aac3b5dfd9c1cdba5b45452fd7c2d42161660c75",
+      "difficulty": 1,
+      "miner": "IRM99287376D56603D28C1FAA7BC5DAD5AC",
+      "nonce": 9,
+      "timestamp": "2026-05-07T00:36:17.878Z",
+      "txCount": 1,
+      "transactions": [
+        {
+          "id": "5b21ecc4-7894-401a-8f61-39bd8262896e",
+          "from": null,
+          "to": "IRM99287376D56603D28C1FAA7BC5DAD5AC",
+          "amount": 50,
+          "fee": 0,
+          "data": "Block 3 reward",
+          "timestamp": "2026-05-07T00:36:17.878Z",
+          "signature": null
+        }
+      ]
+    }
+  ],
+  "utxoSet": {
+    "IRM2B6F0F4D651A238D03B3CD80E4775457": 150,
+    "IRMD16CDC6C25A85A203C88FB8C9174C26D": 150,
+    "IRME7555AFE55A48532DAF4967C1FFEF791": 25,
+    "IRM3D7B44D19AF34DB98F87EA7FC5DFEC15": 150,
+    "IRM644BD5BED4DA28095D31552CC41B9917": 50,
+    "IRM79E31FC7128C4696CC42B778902C1704": 150,
+    "IRMF58FF78E6E51A4E53B2FF55570DED300": 75,
+    "IRMD2C6724080C8B1EA520D3FE8ED23F714": 80,
+    "MSIG-C1CCB9E3AB8BBD1FC62791A55BEBD3AF": 60,
+    "IRM82F0367E7768A44252529D0021CAC567": 60,
+    "IRM2D8F292854DE4964BE1D364B2BA67121": 156.25,
+    "IRM6BFF14800DC9A29F5F42BFC44C557899": 6.25,
+    "IRM99287376D56603D28C1FAA7BC5DAD5AC": 150
+  },
+  "totalMinted": 1272.5,
+  "difficulty": 1,
+  "mempool": []
+}
